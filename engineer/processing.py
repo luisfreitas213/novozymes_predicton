@@ -12,7 +12,7 @@ def dict_combinations(sample_list, sample_seq):
         
     # create all combinations in list of tuples 
     list_combinations = list()
-    for n in range(2,max(sample_seq)+1):
+    for n in range(1,max(sample_seq)+1):
         list_combinations += list(combinations_with_replacement(sample_list, n))
 
     # append combinations in correct key of dictionary order
