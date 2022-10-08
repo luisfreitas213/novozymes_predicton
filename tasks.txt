@@ -1,0 +1,40 @@
+-> Business Understanding:
+     1) Entender a sequEncia e perceber como relacionar com o wild type struct 
+-> Data Understanding
+     Análise inicial dos dados (Luís)
+-> Data Tratament
+    Desenvolver a listas de sequencias de 1 a 5 letras ;
+    (criar lista com as letras que existem e fazer função de combinações)
+
+    Desenvolver 1 coluna para cada letra e contar o numero de vezes que a letra aparece; 
+    Desenvolver 1 coluna para cada sequencia de 2 letras e contar o numero de vezes que a sequencia aparece; 
+    Desenvolver 1 coluna para cada sequencia de 3 letras e contar o numero de vezes que a sequencia aparece; 
+    Desenvolver 1 coluna para cada sequencia de 4 letras e contar o numero de vezes que a sequencia aparece; 
+    Desenvolver 1 coluna para cada sequencia de 5 letras e contar o numero de vezes que a sequencia aparece;  
+    (Função Genérica)
+
+    AAA  AAB
+    2      3
+
+    Desenvolver 1 coluna para cada posicao de 1 letra da sequencia e colocar a letra respetiva;
+    Desenvolver 1 coluna para cada posicao de 2 letra da sequencia e colocar a sequencia respetiva;
+    Desenvolver 1 coluna para cada posicao de 3 letra da sequencia e colocar a sequencia respetiva;
+    Desenvolver 1 coluna para cada posicao de 4 letra da sequencia e colocar a sequencia respetiva;
+    Desenvolver 1 coluna para cada posicao de 5 letra da sequencia e colocar a sequencia respetiva;
+    Realizar One Hot Encoding para as colunas string;
+    (Função Genérica)
+
+    1_l 2_l ... 300_l
+    A   A        NULL
+    1_l_A 1_l_B ... 1_l_Z
+    1      0         0
+
+    1_l_AAA  1_L_AAB ... 15_L_AAA  15_L_AAB
+    1        0            0         1
+
+
+
+-> Data Analytics
+-> Feature Selection
+-> Machine Learning Models
+-> Deep Learning Models
