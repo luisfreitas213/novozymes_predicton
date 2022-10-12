@@ -10,3 +10,6 @@ result_mean = df['dim_seq'].mean()
 print(f'Max Length of protein sequence: {result_max}')
 print(f'Min Length of protein sequence: {result_min}')
 print(f'Mean Length of protein sequence: {result_mean}')
+
+df2 = pd.read_csv('../data/new_train.csv')
+print(df2.head())

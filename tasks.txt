@@ -38,3 +38,15 @@
 -> Feature Selection
 -> Machine Learning Models
 -> Deep Learning Models
+
+
+-> correr novamente com as letras "certas"
+-> correlações de pearson para as numéricas
+-> análise de freq. a cada coluna não numérica 
+     -> (conditionals pandas)
+
+     1_l_1 A = 70%; B = 2%; C = 0.5%, etc 
+     A = 70%; Outros = 30%
+
+-> Box plot com a ['tm']
+
